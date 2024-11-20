@@ -31,7 +31,7 @@
                 return;
             }
 
-            const response = await fetch('https://your-server-url/calculate', {
+            const response = await fetch('https://emi-calculator-backend-jsk6.onrender.com/calculate', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ principal, rate, tenure })
